@@ -44,13 +44,13 @@
 
     <form action='user_insert.php' method='post'>
         <div class="kanri_group">
-            <input type="radio" class="form-control" id="kanri_flg" name='kanri_flg'>一般
-            <input type="radio" class="form-control" id="kanri_flg" name='kanri_flg'>管理者
+            <input type="radio" class="kanri0" id="kanri_flg" name='kanri_flg' value="">一般
+            <input type="radio" class="kanri1" id="kanri_flg" name='kanri_flg' value="">管理者
         </div>
 
         <div class="kanri_group">
-                <input type="radio" class="form-control" id="life_flg" name='life_flg'>アクティブ
-                <input type="radio" class="form-control" id="life_flg" name='life_flg'>非アクティブ
+                <input type="radio" class="life0" id="life_flg" name='life_flg' value="">アクティブ
+                <input type="radio" class="life1" id="life_flg" name='life_flg' value="">非アクティブ
         </div>
 
         <div class="form-group">
