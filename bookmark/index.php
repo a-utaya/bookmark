@@ -38,7 +38,7 @@
     </header>
 
     <div class="book_form">
-        <input type="text" class="" id="retrieval" name='retrieval' width="" placeholder="書籍名or作家名">
+        <input type="text" class="" id="retrieval" name='retrieval' width="" placeholder="プログラミング">
         <button type="submit" class="btn btn-primary" id="btn">検索する</button>
     </div>
     <form action='insert.php' method='post'>
@@ -49,7 +49,7 @@
         </div>
         <div class="form-group">
             <label for="url">本のURL</label>
-            <input type="text " class="form-control" id="url" name='url'>
+            <input type="text" class="form-control" id="url" name='url'>
             <!-- <select id="output2" class="form-control" name="url"></select> -->
             <!-- <input type="text" class="form-control" id="url" name='url'> -->
         </div>
